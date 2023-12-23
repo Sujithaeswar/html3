@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="./public/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 30) {
+          $(".navbar").css("background" , "pink");
+        }
+        else{
+          $(".navbar").css("background" , "rgb(149,62,76)");  	
+        }
+    })
+ })
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./assests/images/chrome.svg" height="40px" class="imag">
+        <span class="des">chrome web store</span>
+        <input type="text" placeholder="Search extensions and themes" class="btn">
+        <img src="./assests/images/3 dots.png" class="ic" height="20px">
+        <img src="./assests/images/bell.png" height="20px" class="ic">
+        <img src="./assests/images/app.png" height="30px" class="ap">
+        <img src="./assests/images/gmail-new-icon5198.jpg" height="35px" class="icon">
+    </div>
+    <img src="./assests/images/Yahoo.jpg" class="imge">
+    
+    <div class="imt">
+      <img src="./assests/images/yahoo-facts.jpg" height="400px" width="300px" class="it">
+      <img src="./assests/images/ezgif.com-gif-maker_1__4-x1024.webp" height="400px" width="300px" class="it">
+      <img src="./assests/images/yahoo-advertising-travel-1280.png" height="400px" width="300px" class="it">
+    </div>
+    <footer class="foot">
+          <h1 class="fw">Copyright @ 2023</h1>
+    </footer>
+
+
+    
+</body>
+</html>
+
+
+
+
